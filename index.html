@@ -8,27 +8,30 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <div id="container">
-        <div id="res">
-            123
+    <section>
+        <div id="container">
+            <div id="res">
+            </div>
+            <input type="button" value="7" class="num" id="sete" onclick="insert('7')">
+            <input type="button" value="8" class="num" id="oito" onclick="insert('8')">
+            <input type="button" value="9" class="num" id="nove" onclick="insert('9')">
+            <input type="button" value="X" class="op" id="mult" onclick="insert('X')">
+            <input type="button" value="4" class="num" id="quatro" onclick="insert('4')">
+            <input type="button" value="5" class="num" id="cinco" onclick="insert('5')">
+            <input type="button" value="6" class="num" id="seis" onclick="insert('6')">
+            <input type="button" value="-" class="op" id="sub" onclick="insert('-')">
+            <input type="button" value="1" class="num" id="um" onclick="insert('1')">
+            <input type="button" value="2" class="num" id="dois" onclick="insert('2')">
+            <input type="button" value="3" class="num" id="tres" onclick="insert('3')">
+            <input type="button" value="+" class="op" id="adi" onclick="insert('+')">
+            <input type="button" value="0" class="num" id="zero" onclick="insert('0')">
+            <input type="button" value="." class="op" id="ponto" onclick="insert('.')">
+            <input type="button" value="=" class="op" id="igual" onclick="calculadora()">
+            <input type="button" value="Limpar" id="limpar" onclick="limpar()">
+            <input type="button" value="Backspace" id="backspace" onclick="back()">
         </div>
-        <input type="button" value="7" class="num" id="sete">
-        <input type="button" value="8" class="num" id="oito">
-        <input type="button" value="9" class="num" id="nove">
-        <input type="button" value="X" class="op" id="mult">
-        <input type="button" value="4" class="num" id="quatro">
-        <input type="button" value="5" class="num" id="cinco">
-        <input type="button" value="6" class="num" id="seis">
-        <input type="button" value="-" class="op" id="sub">
-        <input type="button" value="1" class="num" id="um">
-        <input type="button" value="2" class="num" id="dois">
-        <input type="button" value="3" class="num" id="tres">
-        <input type="button" value="+" class="op" id="adi">
-        <input type="button" value="0" class="num" id="zero">
-        <input type="button" value="." class="op" id="ponto">
-        <input type="button" value="=" class="op" id="igual">
-        <input type="button" value="Limpar" id="limpar">
-    </div>
-    <script src="script/script.js"></script>
+        <script src="script/script.js"></script>
+    </section>
+    <footer>© Criado por Kauã Oliveira</footer>
 </body>
 </html>
