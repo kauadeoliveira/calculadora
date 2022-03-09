@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    padding: 0;
+}
+input{
+    font-size: 1.2em;
+}
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
+    border-radius: 20px;
+    margin: 70px auto;
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    background-color: #282136;
+    grid-gap: 10px;
+    padding: 5px;
+    font-size: 2em;
+}
+
+#container #res{
+    font-size: 1em;
+    grid-column: 1/-1;
+    grid-row: 1;
+    background-color: rgb(255, 255, 255);
+    height: 90%;
+    width: 90%;
+    justify-self: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    overflow-y: hidden;
+    overflow-x: auto;
+
+}
+
+#container .num{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#container .op{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #f9ef32e3;
+    cursor: pointer;
+}
+#container .num:hover{
+    background-color: #CFB8FF;
+}
+#container .op:hover{
+    background-color: #f9ef32b6;
+}
+#sete{
+    grid-column: 1;
+    grid-row: 2;
+}
+#oito{
+    grid-column: 2;
+    grid-row: 2;
+}
+#nove{
+    grid-column: 3;
+    grid-row: 2;
+}
+#mult{
+    grid-column: 4;
+    grid-row: 2;
+}
+#quatro{
+    grid-column: 1;
+    grid-row: 3;
+}
+#cinco{
+    grid-column: 2;
+    grid-row: 3;
+}
+#seis{
+    grid-column: 3;
+    grid-row: 3;
+}
+#sub{
+    grid-column: 4;
+    grid-row: 3;
+}
+#um{
+    grid-column: 1;
+    grid-row: 4;
+}
+#dois{
+    grid-column: 2;
+    grid-row: 4;
+}
+#tres{
+    grid-column: 3;
+    grid-row: 4;
+}
+#adi{
+    grid-column: 4;
+    grid-row:4;
+}
+#zero{
+    grid-column: 1/3;
+    grid-row: 5;
+}
+#ponto{
+    grid-column: 3;
+    grid-row: 5;
+}
+#igual{
+    grid-column: 4;
+    grid-row: 5;
+}
+#limpar{
+    grid-column: 1/-1;
+    border-radius: 10px;
+}
+#limpar:hover{
+    background-color: #CFB8FF;
+}
